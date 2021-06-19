@@ -1,0 +1,26 @@
+package principal;
+
+class Relatorio extends Clinica {
+    
+private double numeroRelatorio;
+
+    
+Relatorio (){
+
+}
+
+
+public void gerirRelatorioComparativo(){
+
+
+}
+
+public double getNumeroRelatorio() {
+   return numeroRelatorio;
+}
+
+public void setNumeroRelatorio(double numeroRelatorio) {
+   this.numeroRelatorio = numeroRelatorio;
+}
+
+}

@@ -1,0 +1,61 @@
+package principal;
+
+class Dentista extends Clinica {
+    
+//Atributos da classe
+    
+   private double cpf;
+   private double id;
+   private String tratamentoStatus;
+
+   //Construtor da classe
+
+   Dentista(){
+    
+   }
+   
+   //Métodos
+   public void cadastrarDentista(){
+
+   }
+
+   public void cadastrarCROSP(){
+
+   }
+
+   public void buscarValidacaoCROSP(){
+
+   }
+
+   public void atualizarEscalaDeAtendimento(){
+
+   }
+
+
+//Métodos Getters e Setters
+    public double getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(double cpf) {
+        this.cpf = cpf;
+    }
+
+    public double getId() {
+        return id;
+    }
+
+    public void setId(double id) {
+        this.id = id;
+    }
+
+
+    public String getTratamentoStatus() {
+        return tratamentoStatus;
+    }
+
+    public void setTratamentoStatus(String tratamentoStatus) {
+        this.tratamentoStatus = tratamentoStatus;
+    }
+
+}
